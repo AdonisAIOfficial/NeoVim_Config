@@ -7,3 +7,5 @@ vim.api.nvim_set_keymap("n", "<Tab>", ":bnext<CR>", { noremap = true, silent = t
 
 -- Switch to the previous buffer
 vim.api.nvim_set_keymap("n", "<S-Tab>", ":bprev<CR>", { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap("n", "<leader>cs", ":Telescope colorscheme<CR>", { noremap = true, silent = true })
